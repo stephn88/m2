@@ -1,5 +1,6 @@
 .topnav {
   background-color: #7f055f;
+  padding: 40px 50px;
 }
 
 .topnav a {
@@ -7,9 +8,9 @@
   color: white;
   text-align: center;
   padding: 40px 50px;
-  text-decoration: overline;
-  font-size: 15px;
-  font-family: helvetica;
+  text-decoration: underline;
+  font-size: 2vmin;
+  font-family: "Fjalla One", sans-serif;
 }
 
 input[type="button"],
@@ -32,6 +33,7 @@ input[type="reset"] {
 .topnav a.active {
   background-color: deeppink;
   color: white;
+  font-weight: bolder;
   padding: 20px 32px;
 }
 

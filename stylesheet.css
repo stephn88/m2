@@ -1,5 +1,6 @@
 .topnav {
   background-color: #7f055f;
+  padding: 40px 50px;
 }
 
 .topnav a {
@@ -7,9 +8,9 @@
   color: white;
   text-align: center;
   padding: 40px 50px;
-  text-decoration: overline;
-  font-size: 15px;
-  font-family: helvetica;
+  text-decoration: underline;
+  font-size: 2vmin;
+  font-family: "Fjalla One", sans-serif;
 }
 
 input[type="button"],
@@ -33,6 +34,7 @@ input[type="reset"] {
   background-color: deeppink;
   color: white;
   padding: 20px 32px;
+  font-weight: bolder;
 }
 
 h1 {
@@ -40,7 +42,7 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   color: deeppink;
-  
+
   padding: 50px 70px;
   text-align: center;
 }
@@ -48,7 +50,7 @@ h1 {
 p {
   font-family: Helvetica;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 3vmin;
   color: hotpink;
   padding: 50px 70px;
   text-align: center;
